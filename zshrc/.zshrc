@@ -2,6 +2,7 @@
 source <(fzf --zsh)
 eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/catppuccin_mocha.omp.json)"
 # eval "$(starship init zsh)"
+eval "$(rbenv init -)"
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
 
